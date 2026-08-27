@@ -188,6 +188,8 @@ section h3 {
   padding-top: 10px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 /* Activity Tag */
@@ -652,6 +654,26 @@ footer {
 
 .user-icon {
   font-size: 1rem;
+}
+
+/* Share button */
+.share-button {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.share-button:hover {
+  background-color: var(--primary);
+  color: white;
 }
 
 #logout-button {
