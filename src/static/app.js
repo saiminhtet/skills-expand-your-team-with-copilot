@@ -568,7 +568,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         `
         }
-        <button class="share-button" data-activity="${name}" data-description="${details.description.replace(/"/g, '&quot;')}" data-schedule="${formattedSchedule.replace(/"/g, '&quot;')}" aria-label="Share this activity">
+        <button class="share-button" aria-label="Share this activity">
           📤 Share
         </button>
       </div>
